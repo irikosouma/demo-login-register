@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  min-width: 800px;
+  min-height: 600px;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  overflow: overlay;
+  font-family: 'SVN-Gilroy';
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./assets/fonts/SVN-Gilroy\ Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./assets/fonts/SVN-Gilroy\ Bold.otf") format("opentype");
 }
